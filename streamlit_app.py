@@ -8,9 +8,6 @@ Created on Thu Sep  7 16:11:01 2023
 import streamlit as st
 import pandas as pd
 
-from urllib.request import urlopen
-import joblib
-import sklearn
 
 st.set_page_config(page_title="Accueil")
 

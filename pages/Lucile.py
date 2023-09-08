@@ -57,3 +57,7 @@ if st.checkbox('Afficher les notes'):
     
 
 
+
+if 'note_Clem' not in st.session_state:
+    st.session_state.note_Clem = 10
+    
