@@ -8,6 +8,9 @@ Created on Thu Sep  7 16:11:01 2023
 import streamlit as st
 import pandas as pd
 
+from urllib.request import urlopen
+import joblib
+import sklearn
 
 st.set_page_config(page_title="Accueil")
 
@@ -19,3 +22,7 @@ if 'note_Clem' in st.session_state:
 df = pd.read_csv("Tableau_notes.csv", index_col = 0)
 
 st.write(df)
+
+
+
+# https://cerema.box.com/s/r9mfpohge7pmjj04vtp3ri9i5h05wec7
