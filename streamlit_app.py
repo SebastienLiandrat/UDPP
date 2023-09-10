@@ -312,9 +312,9 @@ if st.checkbox('Afficher les résultats'):
         
         
         
-        st.write("Somme non ajustée Tom Luciano : ", total_TL)
-        st.write("Somme non ajustée Clem Sonny : ", total_CS)
-        st.write("Somme non ajustée Lucile Seb : ", total_LS)
+        st.write("Somme non ajustée Tom Luciano : ", total_TL/6)
+        st.write("Somme non ajustée Clem Sonny : ", total_CS/6)
+        st.write("Somme non ajustée Lucile Seb : ", total_LS/6)
         
        
     
