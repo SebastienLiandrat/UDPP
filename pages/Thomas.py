@@ -26,7 +26,7 @@ if st.checkbox('Afficher les notes'):
     st.write(df.loc["Tom"])
     
     with st.form('addition'):
-        st.write("Notes pour Tom et Tom")
+        st.write("Notes pour Clem et Sonny")
         note_Tom_CS_repas = st.number_input('Repas',value=  note_Tom_CS_repas , min_value=0.0, max_value=10.0, step=0.5)
         note_Tom_CS_anim = st.number_input('Animation', value = note_Tom_CS_anim, min_value=0.0, max_value=10.0, step=0.5)
         note_Tom_CS_déco = st.number_input('Décoration',value = note_Tom_CS_déco, min_value=0.0, max_value=10.0, step=0.5)

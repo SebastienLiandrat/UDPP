@@ -23,8 +23,7 @@ note_Clem_LS_déco = df.loc["Clem"]["LS_deco"]
 
 
 if st.checkbox('Afficher les notes'):
-    st.write(df.loc["Clem"])
-    
+    st.dataframe(pd.DataFrame(df.loc["Clem"]))
     with st.form('addition'):
         st.write("Notes pour Tom et Luciano")
         note_Clem_TL_repas = st.number_input('Repas',value=  note_Clem_TL_repas , min_value=0.0, max_value=10.0, step=0.5)
