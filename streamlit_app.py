@@ -209,9 +209,9 @@ if st.checkbox('Afficher les résultats'):
                         note_Sonny_LS_repas_ajustee,
                         note_Sonny_LS_anim_ajustee,
                         note_Sonny_LS_déco_ajustee,
-                        note_Sonny_LS_repas_ajustee,
-                        note_Sonny_LS_anim_ajustee,
-                        note_Sonny_LS_déco_ajustee,
+                        note_Tom_LS_repas_ajustee,
+                        note_Tom_LS_anim_ajustee,
+                        note_Tom_LS_déco_ajustee,
                         note_Luciano_LS_repas_ajustee,
                         note_Luciano_LS_anim_ajustee,
                         note_Luciano_LS_déco_ajustee])
