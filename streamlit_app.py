@@ -216,9 +216,9 @@ if st.checkbox('Afficher les résultats'):
                         note_Luciano_LS_anim_ajustee,
                         note_Luciano_LS_déco_ajustee])
                         
-        st.write("Somme ajustée Tom Luciano : ", total_TL_ajustee)
-        st.write("Somme ajustée Clem Sonny : ", total_CS_ajustee)
-        st.write("Somme ajustée Lucile Seb : ", total_LS_ajustee)
+        st.write("Somme ajustée Tom Luciano : ", total_TL_ajustee/12)
+        st.write("Somme ajustée Clem Sonny : ", total_CS_ajustee/12)
+        st.write("Somme ajustée Lucile Seb : ", total_LS_ajustee/12)
         
         
         note_Clem_TL_repas = df.loc["Clem"]["TL_repas"]
